@@ -1,0 +1,359 @@
+.details {
+  position: absolute;
+  width: 25rem;
+  height: 20rem;
+  margin-top: 5rem;
+
+  z-index: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.bar {
+  background: black;
+
+  position: absolute;
+
+  width: 15rem;
+  height: 3px;
+
+  box-shadow:0rem 0rem 1.5rem 1px black ;
+
+  clip-path: polygon(10% 0%, 100% 0, 100% 100%, 20% 100%);
+ 
+}
+
+
+.barra1 {
+  transform: rotate(-50deg);
+  margin-left: 7.5rem;
+  margin-top: 10rem;
+
+}
+
+.barra2 {
+  transform: rotate(-50deg);
+
+  margin-left: 2rem;
+  margin-top: 6rem;
+}
+
+.barra3 {
+  transform: rotate(-50deg);
+
+  margin-left: 2rem;
+  margin-top: 12rem;
+}
+
+.barra4 {
+  transform: rotate(-50deg);
+
+  margin-left: 6rem;
+  margin-top: 15rem;
+}
+
+.barra5 {
+  transform: rotate(-50deg);
+
+  width: 8rem;
+
+  margin-left: 12.5rem;
+  margin-top: 15rem;
+}
+
+.barra6 {
+  transform: rotate(-50deg);
+
+  margin-top: 17.3rem;
+  margin-left: 14.5rem;
+
+  width: 6.5rem;
+}
+
+.barra7 {
+  transform: rotate(-50deg);
+
+  margin-left: 15rem;
+  margin-top: 1rem;
+
+  width: 4rem;
+}
+
+.barra8 {
+  transform: rotate(-50deg);
+
+  margin-left: 19rem;
+  margin-top: 2.5rem;
+
+  width: 3.5rem;
+}
+
+.barra9 {
+  transform: rotate(-50deg);
+
+  margin-top: 3rem;
+  margin-left: 4.5rem;
+
+  width: 6rem;
+  
+}
+
+.barra10 {
+  transform: rotate(-50deg);
+
+  margin-top: 2rem;
+  margin-left: 2rem;
+
+  width: 7rem;
+}
+
+
+.barD2 {
+  width: 15rem;
+  height: 2px;
+
+  background: black;
+
+  position: absolute;
+
+}
+
+.barD1P {
+  margin-top: 19rem;
+  margin-left: 5rem;
+}
+
+.barD2P {
+  margin-top: 18rem;
+  margin-left: 5rem;
+}
+
+.barD3P {
+  margin-top: 17rem;
+  margin-left: 5rem;
+}
+
+
+.barD3 {
+  transform: rotate(-40deg);
+
+  width: 15rem;
+  height: 2px;
+
+  background: black;
+
+  position: absolute;
+}
+
+.bar3D1P {
+margin-top: 5rem;
+margin-left: 2.9rem;
+
+width: 18rem;
+}
+
+.bar3D2P {
+  margin-top: 8rem;
+  margin-left: 2.5rem;
+
+  width: 22.5rem;
+  }
+
+  .bar3D3P {
+    margin-top: 13.5rem;
+    margin-left: 2.8rem;
+
+   width: 19.4rem;
+  }
+
+
+  .barD4 {
+    width: 6rem;
+    height:10rem;
+
+    clip-path: polygon(74% 18%, 74% 18%, 64% 54%, 44% 86%, 44% 86%, 53% 50%);
+
+    transform: rotate(40deg);
+
+    position: absolute;
+
+    background: black;
+  }
+
+  .bar4D1P {
+    margin-top: 2rem;
+    margin-left: 7rem;
+
+    width: 10rem;
+    height: 14rem;
+  }
+
+  .bar4D2P {
+    margin-top: 2.5rem;
+    margin-left: 8rem;
+
+    transform: rotate(45deg);
+  }
+
+  .bar4D3P{
+    margin-top: 6rem;
+    margin-left: 11rem;
+
+    transform: rotate(42deg);
+  }
+
+
+  .barD5 {
+    width: 15rem;
+    height:2px;
+
+    position: absolute;
+
+    background: black;
+  }
+
+  .bar5D1P {
+    margin-top: 19rem;
+    margin-left: 5rem;
+  }
+
+  .bar5D2P {
+    margin-top: 19.7rem;
+    margin-left: 5rem;
+  }
+
+
+  .barD6 {
+    width: 4.7rem;
+    height:2px;
+
+    transform: rotate(48deg);
+
+    position: absolute;
+
+    background: black;
+  }
+
+  .bar6D1P {
+    margin-top: 3.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .bar6D2P {
+    margin-top: 3.2rem;
+    margin-left: 1rem;
+  }
+
+  .barD7 {
+    width: 4.8rem;
+    height:2px;
+
+    transform: rotate(-46deg);
+
+    position: absolute;
+
+    background: black;
+  }
+
+  .bar7D1P {
+    margin-top: 3.6rem;
+    margin-left: 19.8rem;
+  }
+
+  .bar7D2P {
+    margin-top: 3.2rem;
+    margin-left: 19.5rem;
+  }
+
+
+.barD8 {
+  width: 2px;
+  height: 5rem;
+  background: black;
+}
+
+.bar8D1P {
+  margin-left: 4.5rem;
+  margin-top: -0.2rem;
+  height: 5.5rem;
+}
+
+.bar8D2P {
+  margin-left: 8rem;
+  margin-top: -6.8rem;
+  height: 21.5rem;
+}
+
+.bar8D3P {
+  margin-left: 16.7rem;
+  margin-top: -21.5rem;
+  height: 21.5rem;
+}
+
+.bar8D4P {
+  margin-left: 20.4rem;
+  margin-top: -20.3rem;
+  height: 5.6rem;
+}
+
+.bar8D5P {
+  margin-left: 12.4rem;
+  margin-top: -5.3rem;
+  height: 20rem;
+}
+
+.barD9 {
+  width: 15rem;
+  height: 2px;
+  background: black;
+
+  position: absolute;
+}
+
+.bar9D1P {
+  margin-left: 1rem;
+  margin-top: 2rem;
+  width: 23.2rem;
+}
+
+.bar9D2P {
+  margin-left: 5rem;
+  margin-top: 6rem;
+}
+
+.bar9D3P {
+  margin-left: 5rem;
+  margin-top: 10rem;
+}
+
+.bar9D4P {
+  margin-left: 5rem;
+  margin-top: 14rem;
+}
+
+.bar9D5P {
+  margin-left: 5rem;
+  margin-top: 18rem;
+}
+
+.barD10 {
+width: 10rem;
+height: 10rem;
+
+background: black;
+margin-left: 7.6rem;
+margin-top: 6rem;
+
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+
+  .detail {
+    width: 25rem;
+    height: 20rem;
+  
+    position: absolute;
+  }

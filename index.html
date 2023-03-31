@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personalize sua Camisa</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="details.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="icon" href="img/Camisa-icon.png" />
+  </head>
+  <body>
+    <header>
+      <div class="headerLogo">
+        <img src="img/logo do macaco.png" alt="" />
+      </div>
+      <div class="title">
+        <h1>Personalize Sua Camisa</h1>
+      </div>
+    </header>
+    <main>
+      <div class="show">
+        <div id="showCamisa" class="shows hidden">
+          <h2 class="showH2">Cores Camisa:</h2>
+          <div class="pallet">
+            <div>
+              <form id="formColor" class="formColor" action="">
+                <input
+                  type="color"
+                  id="inputColor"
+                  class="inputColor"
+                  name="color"
+                />
+                <input
+                  id="submitColor"
+                  class="submitColor"
+                  type="submit"
+                  value="Enviar"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div id="showGola" class="shows hidden">
+          <h2 class="showH2">Cores Gola:</h2>
+          <div class="pallet">
+            <div>
+              <form id="formColorG" class="formColor" action="">
+                <input
+                  type="color"
+                  id="inputColorG"
+                  class="inputColor"
+                  name="color"
+                />
+                <input
+                  id="submitColorG"
+                  class="submitColor"
+                  type="submit"
+                  value="Enviar"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div id="showMangaE" class="shows hidden">
+          <h2 class="showH2">Cores Manga Esquerda:</h2>
+
+          <div class="pallet">
+            <div>
+              <form id="formColorME" class="formColor" action="">
+                <input
+                  type="color"
+                  id="inputColorME"
+                  class="inputColor"
+                  name="color"
+                />
+                <input
+                  id="submitColorME"
+                  class="submitColor"
+                  type="submit"
+                  value="Enviar"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div id="showMangaD" class="shows hidden">
+          <h2 class="showH2">Cores Manga Direita:</h2>
+          <div class="pallet">
+            <div>
+              <form id="formColorMD" class="formColor" action="">
+                <input
+                  type="color"
+                  id="inputColorMD"
+                  class="inputColor"
+                  name="color"
+                />
+                <input
+                  id="submitColorMD"
+                  class="submitColor"
+                  type="submit"
+                  value="Enviar"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div id="showDesenhos" class="shows hidden">
+          <h2 class="showH2">Desenhos:</h2>
+
+          <div class="Desenhos">
+            <button id="resetD" class="btn">Resetar Desenho</button>
+
+            <div id="boxDrawns" class="boxDrawns">
+              <div class="desenhoButton">
+                <button id="D1" class="BtnDesenhos">
+                  <img src="img/macaquinho.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D2" class="BtnDesenhos">
+                  <img src="img/baleia.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D3" class="BtnDesenhos">
+                  <img src="img/centauro.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D4" class="BtnDesenhos">
+                  <img src="img/chimpanzee-head.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D5" class="BtnDesenhos">
+                  <img src="img/dragao.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D6" class="BtnDesenhos">
+                  <img src="img/dragao1.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D7" class="BtnDesenhos">
+                  <img src="img/dragao2.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D8" class="BtnDesenhos">
+                  <img src="img/gorila.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D9" class="BtnDesenhos">
+                  <img src="img/leao-de-juda.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D10" class="BtnDesenhos">
+                  <img src="img/leao.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D11" class="BtnDesenhos">
+                  <img src="img/leao1.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D12" class="BtnDesenhos">
+                  <img src="img/leao2.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D13" class="BtnDesenhos">
+                  <img src="img/leao3.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D14" class="BtnDesenhos">
+                  <img src="img/macaco1.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D15" class="BtnDesenhos">
+                  <img src="img/mamute.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D16" class="BtnDesenhos">
+                  <img src="img/mamute1.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D17" class="BtnDesenhos">
+                  <img src="img/monkey-mammal-face-outline-front.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D18" class="BtnDesenhos">
+                  <img src="img/panda.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D19" class="BtnDesenhos">
+                  <img src="img/pantera-negra.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D20" class="BtnDesenhos">
+                  <img src="img/sereia.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D21" class="BtnDesenhos">
+                  <img src="img/sereia1.png" alt="" />
+                </button>
+              </div>
+
+              <div class="desenhoButton">
+                <button id="D22" class="BtnDesenhos">
+                  <img src="img/girassol.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D23" class="BtnDesenhos">
+                  <img src="img/macaco4.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D24" class="BtnDesenhos">
+                  <img src="img/rosa.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D25" class="BtnDesenhos">
+                  <img src="img/cobraEspada.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D26" class="BtnDesenhos">
+                  <img src="img/cobraCaveira.png" alt="" />
+                </button>
+              </div>
+              <div class="desenhoButton">
+                <button id="D27" class="BtnDesenhos">
+                  <img src="img/cobraFlores.png" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="inputsOrg">
+            <form id="formD">
+              <input
+                id="inputD"
+                autocomplete="off"
+                placeholder="Insira a URL da Imagem"
+                type="text"
+              />
+              <input id="sInputD" type="submit" value="✔" />
+            </form>
+            <form id="formSizeDesenho">
+              <input type="text" id="inputSizeDesenho" placeholder="Tamanho" />
+              <input id="sInputD" type="submit" value="✔" />
+            </form>
+          </div>
+        </div>
+        <div id="showDetalhes" class="shows hidden">
+          <h2 class="showH2">Detalhes:</h2>
+          <div class="buttonsShowDetails">
+            <button class="btn" id="showPositions">Detalhes</button>
+            <button class="btn hidden" id="closePositions">Fechar</button>
+          </div>
+
+          <div id="palletDetails">
+            <div>
+              <form id="formColorD" class="formColor" action="">
+                <input
+                  type="color"
+                  id="inputColorD"
+                  class="inputColor"
+                  name="color"
+                />
+                <input
+                  id="submitColorD"
+                  class="submitColor"
+                  type="submit"
+                  value="Enviar"
+                />
+              </form>
+            </div>
+          </div>
+
+          <div id="positionsDetail" class="detalhes hidden">
+            <button id="SD1" class="dl">1</button>
+            <button id="SD2" class="dl">2</button>
+            <button id="SD3" class="dl">3</button>
+            <button id="SD4" class="dl">4</button>
+            <button id="SD5" class="dl">5</button>
+            <button id="SD6" class="dl">6</button>
+            <button id="SD7" class="dl">7</button>
+            <button id="SD8" class="dl">8</button>
+            <button id="SD9" class="dl">9</button>
+            <button id="SD10" class="dl">10</button>
+          </div>
+        </div>
+        <div id="showLogo" class="shows hidden">
+          <h2 class="showH2">Logo:</h2>
+
+          <div class="buttonsShowLogo">
+            <button class="btn" id="showL">On/Of</button>
+          </div>
+
+          <div id="pallet" class="pallet">
+            <div>
+              <form id="formColorL" class="formColor" action="">
+                <input
+                  type="color"
+                  id="inputColorL"
+                  class="inputColor"
+                  name="color"
+                />
+                <input
+                  id="submitColorL"
+                  class="submitColor"
+                  type="submit"
+                  value="Enviar"
+                />
+              </form>
+            </div>
+          </div>
+
+          <div class="inputsOrg">
+            <form id="formL">
+              <input
+                id="inputL"
+                placeholder="Insira a URL da Imagem"
+                autocomplete="off"
+                type="text"
+              />
+              <input id="sInputL" type="submit" value="✔" />
+            </form>
+
+            <form id="formSizeLogo">
+              <input type="text" id="inputSizeLogo" placeholder="Tamanho" />
+              <input id="sInputD" type="submit" value="✔" />
+            </form>
+          </div>
+        </div>
+        <div id="showName" class="shows hidden">
+          <h2 class="showH2">Nome:</h2>
+
+          <form id="formColorN" class="formColor" action="">
+            <input
+              type="color"
+              id="inputColorN"
+              class="inputColor"
+              name="color"
+            />
+            <input
+              id="submitColorN"
+              class="submitColor"
+              type="submit"
+              value="Enviar"
+            />
+          </form>
+
+          <div class="inputsOrg">
+            <form class="formName" id="formulario">
+              <input
+                autocomplete="off"
+                placeholder="Insira o Nome"
+                type="text"
+                id="nome"
+              />
+              <input id="enviar" type="submit" value="✔" />
+            </form>
+
+            <form id="formSizeName">
+              <input type="text" id="inputSizeName" placeholder="Tamanho" />
+              <input id="sInputD" type="submit" value="✔" />
+            </form>
+          </div>
+        </div>
+        <div id="showNum" class="shows hidden">
+          <h2 class="showH2">Numero:</h2>
+
+          <div id="palletNumber">
+            <form id="formColorNU" class="formColor" action="">
+              <input
+                type="color"
+                id="inputColorNU"
+                class="inputColor"
+                name="color"
+              />
+              <input
+                id="submitColorNU"
+                class="submitColor"
+                type="submit"
+                value="Enviar"
+              />
+            </form>
+          </div>
+
+          <div class="inputsOrg">
+            <form id="formNum">
+              <input
+                autocomplete="off"
+                placeholder="Numero"
+                type="number"
+                id="Num"
+              />
+              <input id="enviarNum" type="submit" value="✔" />
+            </form>
+
+            <form id="formSizeNumero">
+              <input type="text" id="inputSizeNumero" placeholder="Tamanho" />
+              <input id="sInputD" type="submit" value="✔" />
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="camisaScreen">
+        <div id="camisa" class="camisa"></div>
+        <div id="gola" class="gola"></div>
+        <div id="mangaEsquerda" class="mangaEsquerda"></div>
+        <div id="mangaDireita" class="mangaDireita"></div>
+        <div id="desenhoNaFrente" class="desenhoNaFrente grab"></div>
+        <div class="details">
+          <div id="detail1" class="detail hidden">
+            <div id="colorD" class="barra1 bar"></div>
+            <div id="colorD1" class="barra2 bar"></div>
+            <div id="colorD2" class="barra3 bar"></div>
+            <div id="colorD3" class="barra4 bar"></div>
+            <div id="colorD4" class="barra5 bar"></div>
+            <div id="colorD5" class="barra6 bar"></div>
+            <div id="colorD6" class="barra7 bar"></div>
+            <div id="colorD7" class="barra8 bar"></div>
+            <div id="colorD8" class="barra9 bar"></div>
+            <div id="colorD9" class="barra10 bar"></div>
+          </div>
+          <div id="detail2" class="detail hidden">
+            <div id="colorD10" class="barD1P barD2"></div>
+            <div id="colorD11" class="barD2P barD2"></div>
+            <div id="colorD12" class="barD3P barD2"></div>
+          </div>
+          <div id="detail3" class="detail hidden">
+            <div id="colorD13" class="bar3D1P barD3"></div>
+            <div id="colorD14" class="bar3D2P barD3"></div>
+            <div id="colorD15" class="bar3D3P barD3"></div>
+          </div>
+
+          <div id="detail4" class="detail hidden">
+            <div id="colorD16" class="bar4D1P barD4"></div>
+            <div id="colorD17" class="bar4D2P barD4"></div>
+            <div id="colorD18" class="bar4D3P barD4"></div>
+          </div>
+
+          <div id="detail5" class="detail hidden">
+            <div id="colorD19" class="bar5D1P barD5"></div>
+            <div id="colorD20" class="bar5D2P barD5"></div>
+          </div>
+
+          <div id="detail6" class="detail hidden">
+            <div id="colorD21" class="bar6D1P barD6"></div>
+            <div id="colorD22" class="bar6D2P barD6"></div>
+          </div>
+
+          <div id="detail7" class="detail hidden">
+            <div id="colorD23" class="bar7D1P barD7"></div>
+            <div id="colorD24" class="bar7D2P barD7"></div>
+          </div>
+
+          <div id="detail8" class="detail hidden">
+            <div id="colorD25" class="bar8D1P barD8"></div>
+            <div id="colorD26" class="bar8D2P barD8"></div>
+            <div id="colorD27" class="bar8D3P barD8"></div>
+            <div id="colorD28" class="bar8D4P barD8"></div>
+            <div id="colorD29" class="bar8D5P barD8"></div>
+          </div>
+
+          <div id="detail9" class="detail hidden">
+            <div id="colorD30" class="bar9D1P barD9"></div>
+            <div id="colorD31" class="bar9D2P barD9"></div>
+            <div id="colorD32" class="bar9D3P barD9"></div>
+            <div id="colorD33" class="bar9D4P barD9"></div>
+            <div id="colorD34" class="bar9D5P barD9"></div>
+          </div>
+
+          <div id="detail10" class="detail hidden">
+            <div id="colorD35" class="bar10D1P barD10"></div>
+          </div>
+        </div>
+
+        <div id="logo" class="logo grab hidden"></div>
+        <div id="logoImg" class="grab" src="" alt=""></div>
+        <div id="nomeCamisa" class="nome grab"></div>
+        <div id="Nume" class="Num grab"></div>
+      </div>
+
+      <div class="buttons">
+        <div class="btnOrg">
+          <button id="btncamisa" class="button">Camisa</button>
+          <button id="btnGola" class="button">Gola</button>
+          <button id="btnMangaE" class="button">Manga Esquerda</button>
+          <button id="btnMangaD" class="button">Manga Direita</button>
+          <button id="btnDesenho" class="button">Desenhos</button>
+          <button id="btnShowDetalhes" class="button">Detalhes</button>
+          <button id="btnLogo" class="button">Logo</button>
+          <button id="btnNome" class="button">Nome</button>
+          <button id="btnNum" class="button">Numero</button>
+
+          <div class="resetButton">
+            <button class="button">Reset</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <h2 id="secret">Feito por MacacoBranco</h2>
+    </footer>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="jqueryUi/jquery-ui.js"></script>
+  <script src="jqueryUi/jquery-ui.min.js"></script>
+  <script src="mousePosition.js"></script>
+  <script src="camisa.js"></script>
+  <script src="gola.js"></script>
+  <script src="mangaE.js"></script>
+  <script src="mangaD.js"></script>
+  <script src="desenhosNaFrente.js"></script>
+  <script src="details.js"></script>
+  <script src="name.js"></script>
+  <script src="logo.js"></script>
+  <script src="numero.js"></script>
+</html>

@@ -1,0 +1,172 @@
+
+
+
+
+@media (max-width:900px) {
+
+  :root {
+    --primary-size: 25rem;
+    --secondary-size: 5rem;
+    --tercentenary-size: 6.5rem;
+    --quaternary-size: 12rem;
+    --quintonary-size: 2rem;
+    --sextonary-size:6rem;
+    --seventary-size:2.5rem;
+    --eighth-size:12rem;
+  
+    --primary-font-size: 1rem;
+    --secondary-font-size: 1.2rem;
+   
+    --main-width: 38rem;
+    --main-height: 30rem;
+  
+    --botoes-width: 20rem;
+    --botoes-height: 38rem;
+
+    --input-size:10rem;
+    --btn-size: 3rem;
+  }
+
+
+  main {
+    flex-direction: column;
+  }
+
+  .show {
+    height: 20rem;
+    width: 40rem;
+    
+
+    border-left: 2px solid var(--primary-emphasis-color);
+    border-top: 2px solid var(--primary-emphasis-color);
+    border-right: 2px solid var(--primary-emphasis-color);
+
+    border-radius: 1rem 1rem 0rem 0rem;
+  }
+
+  .buttons{
+    height: 20rem;
+    width: 40rem;
+
+    border-left: 2px solid var(--primary-emphasis-color);
+    border-top: 2px solid var(--primary-emphasis-color);
+    border-bottom: 2px solid var(--primary-emphasis-color);
+
+    padding: 1rem;
+
+    border-radius: 0rem 0rem 1rem 1rem;
+
+  }
+
+  .camisaScreen {
+    width: 40rem;
+
+    border-left: 2px solid var(--primary-emphasis-color);
+    border-bottom: 0px ;
+    border-top: 0px ;
+    border-right: 2px solid var(--primary-emphasis-color);
+  }
+
+
+  .shows {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .showH2 {
+margin-bottom: 0rem;
+
+  }
+
+.inputColor {
+  width: var(--input-size);
+  height: var(--input-size);
+}
+
+.boxDrawns {
+  width: var(--eighth-size);
+}
+
+.BtnDesenhos {
+  width: var(--btn-size);
+  height: var(--btn-size);
+}
+
+.BtnDesenhos img {
+  width: var(--btn-size);
+  height: var(--btn-size);
+}
+
+#inputD {
+  width: var(--input-size);
+}
+
+
+#inputSizeDesenho {
+  width: 10rem;
+}
+
+#inputSizeName {
+  width: 10rem;
+}
+
+#inputSizeNumero {
+  width: 10rem;
+}
+
+.buttonsShowDetails {
+  margin-top: 10rem;
+}
+
+#showPositions {
+  position: absolute;
+}
+
+.detalhes {
+  margin-top: 0rem;
+  margin-left: 15rem;
+}
+
+.dl {
+  width: var(--btn-size);
+  height: var(--btn-size);
+}
+
+#inputL {
+  width: 12rem;
+}
+
+#formL {
+  margin-top: 2rem;
+}
+
+#inputSizeLogo {
+  width: 12rem;
+}
+
+
+#nome {
+  width: var(--input-size);
+}
+
+
+
+
+.headerLogo {
+  margin-left: 1rem;
+}
+
+ 
+
+  .btnOrg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-content:center ;
+    justify-content: center;
+    gap: 1rem;
+
+   
+  }
+  
+}
